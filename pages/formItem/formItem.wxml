@@ -1,0 +1,16 @@
+<form bindsubmit="submitForm">
+    <view class="formStyle">
+        <view class="sexStyle">打卡项名称</view>
+        <textarea class="suggest" name='logItemName' style="height:100rpx;" decode='true' placeholder="名称" ></textarea>
+        <view class="sexStyle">加入口令</view>
+        <textarea class="suggest" name='logItemKey' style="height:100rpx;" decode='true' placeholder="口令" ></textarea>
+         <view class="sexStyle">姓名</view>
+        <textarea class="suggest" name='myName' style="height:100rpx;" decode='true' placeholder="姓名" ></textarea>
+        <button class="submitClass" form-type="submit" type="primary" >
+            提交
+        </button>
+        <button form-type="reset" bindtap="resetForm" class="restoreClass">重置</button>
+    </view>
+</form>
+<loading hidden="{{loading}}">加载中...</loading>
+<loading hidden="{{submit}}">提交中...</loading>
