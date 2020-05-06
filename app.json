@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/logItemList/logItemList",
+    "pages/formLog/formLog",
+    "pages/formItem/formItem",
+    "pages/logInfo/logInfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
