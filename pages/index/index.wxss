@@ -8,20 +8,18 @@ page {
 
 .img {
     position: fixed;
-    left: 44rpx;
-    top: 136rpx;
+    top: 240rpx;
     z-index: -1;
  
 }
 .content {
-   
-  top: 400rpx;
-  left: 168rpx;
+  width: 60%;
+  top: 470rpx;
   z-index: 1000;
   position: fixed;
 }
 .writer{
-    top: 600rpx;
+    top: 664rpx;
     right: 120rpx;
     z-index: 1000;
     position: fixed;
@@ -29,8 +27,9 @@ page {
 .home{
     width: 100%;
     height: 100%;
-    /* text-align: center;
+    display: flex;
+    text-align: center;
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
 
 }

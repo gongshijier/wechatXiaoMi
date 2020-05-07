@@ -4,8 +4,8 @@
 <view class="home">
  <image class="img" src="../../img/home.png" mode="widthFix" />
   
-  <text class="content">二零二零年五月七日</text>
+  <text class="content">{{hitokoto}}</text>
 
-  <text class="writer">未知</text>
+  <text class="writer">{{from}}</text>
 
 </view>

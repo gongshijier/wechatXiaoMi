@@ -5,14 +5,24 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    hitokoto:"",
+    from:""
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    wx.request({
+      url:"https://v1.hitokoto.cn/",
+      success: (res) => {
+        console.log("api调用结果：", res.data);
+        this.setData({
+          hitokoto: res.data.hitokoto,
+          from:res.data.from
+        });
+       }
+  })
   },
 
   /**
