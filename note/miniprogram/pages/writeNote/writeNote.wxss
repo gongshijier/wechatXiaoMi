@@ -1,0 +1,24 @@
+/* miniprogram/pages/writeNote/writeNote.wxss */
+ .content {
+   display: inline;
+   justify-content: center;
+ }
+
+ .text {
+   text-align: left;
+   font-size: small;
+   width: 95%;
+   height: 1070rpx;
+   background-color: #FFFFFF;
+   margin: 20rpx;
+   border-radius: 20rpx;
+ }
+
+ .save {
+   background-color: grey;
+   color: white;
+   text-align: right;
+   font-size: small;
+   border-radius: 0rpx;
+ }
+
