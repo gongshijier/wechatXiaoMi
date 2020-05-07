@@ -1,0 +1,36 @@
+/* pages/index/index.wxss */
+page {
+  height: 100%;
+  width: 100%;
+  background: #ededed;
+  
+}
+
+.img {
+    position: fixed;
+    left: 44rpx;
+    top: 136rpx;
+    z-index: -1;
+ 
+}
+.content {
+   
+  top: 400rpx;
+  left: 168rpx;
+  z-index: 1000;
+  position: fixed;
+}
+.writer{
+    top: 600rpx;
+    right: 120rpx;
+    z-index: 1000;
+    position: fixed;
+}
+.home{
+    width: 100%;
+    height: 100%;
+    /* text-align: center;
+  align-items: center;
+  justify-content: center; */
+
+}
