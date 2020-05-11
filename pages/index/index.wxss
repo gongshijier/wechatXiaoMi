@@ -2,7 +2,7 @@
 page {
   height: 100%;
   width: 100%;
-  background: #ededed;
+ 
   
 }
 
@@ -14,13 +14,14 @@ page {
 }
 .content {
   width: 60%;
+  left: 120rpx;
   top: 470rpx;
   z-index: 1000;
   position: fixed;
 }
 .writer{
-    top: 664rpx;
-    right: 120rpx;
+    top: 800rpx;
+    left: 120rpx;
     z-index: 1000;
     position: fixed;
 }

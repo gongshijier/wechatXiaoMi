@@ -97,11 +97,7 @@ Page({
       }, 800);
   },
   resetForm: function (e) {
-    this.setData({
-      country: 0,
-      date: "2020-03-31",
-      time: "09:00",
-    }),
+   
       wx.showToast({
         title: "已重置",
       });

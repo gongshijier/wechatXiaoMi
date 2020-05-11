@@ -6,14 +6,15 @@
         <view class="scroView" wx:for="{{listItem}}">
              <navigator gator url="/pages/logInfo/logInfo?itemKey={{item.itemKey}}" class="scroView">
                 <view class="space">
-                    <view class="cotentSpace">
+                     <text class="menuIcon2"></text>
+                   <view class="cotentSpace">
                         <view class="menuSpace">{{item.itemName}}</view>
                     </view>
-                    <text class="menuIcon2"></text>
+                  
                 </view>
             </navigator>
         </view>
-        <cover-view class="coder">Gong.S.J</cover-view>
+      
         <navigator url="/pages/formItem/formItem" class="scroView">
             <text class="circle"></text>
         </navigator>
