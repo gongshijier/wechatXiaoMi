@@ -1,0 +1,163 @@
+.container{
+	padding:48rpx;
+	border-top:1rpx solid #e5e5e5;
+}
+.header{
+ position: fixed;
+	bottom: 45rpx;
+	left: 80px;
+	display:flex;
+	width:70%;
+	align-items:center;
+	border:1rpx solid #e0e0e0;
+	border-radius:10rpx;
+	box-shadow:0 0 5rpx #e0e0e0;
+
+	padding:20rpx;
+	
+	box-sizing:border-box;
+}
+
+.header
+
+.header .plus{
+	width: 41rpx;
+	height: 80rpx;
+	margin-right:20rpx;
+}
+.header .new-todo{
+	flex:1;
+	font-size:28rpx;
+
+}
+.todos{
+	border:1px solid #e0e0e0;
+	border-radius:10rpx;
+	box-shadow:0 0 5rpx #e0e0e0;
+	box-sizing: border-box;
+	width:100%;
+	display:none;
+	margin-top: 40rpx;
+}
+.todos.haveChild{
+	display: block;
+}
+.todos .item{
+	margin-top: 8rpx;
+	margin-bottom: 8rpx;
+	display:flex;
+	width:100%;
+	align-items:center;
+	padding:20rpx;
+	
+	border-bottom:1rpx solid #e0e0e0;
+	position:relative;
+	box-sizing: border-box;
+}
+.todos .item:last-child{
+	border-bottom:0;
+}
+.todos .item .name{
+	margin-left: 8rpx;
+	flex:1;
+	font-size:medium;
+	color:#444;
+}
+.todos .item.completed .name{
+	text-decoration:line-through;
+	color:#888;
+}
+.todos .item .checkbox{
+	margin-right:10rpx;
+}
+.todos .item .remove{
+	cursor:pointer;
+	position:absolute;
+	right:10rpx;
+	top:50%;
+	transform:translateY(-50%);
+}
+.footer{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	margin:30rpx 0;
+	padding:0 10rpx;
+	font-size:26rpx;
+	color:#777;
+	box-sizing: border-box;
+	
+}
+.footer .btn{
+	cursor:pointer;
+	
+}
+.empty{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+.empty .title{
+	font-size:60rpx;
+	margin:200rpx 50rpx 50rpx;
+	color:#444;
+}
+.empty .content{
+	color:#666;
+	text-align:center;
+}
+.add::before {
+	content: '';
+	position: absolute; 
+	left: 50%;
+	top: 50%;
+	width: 16px;
+	margin-left: -8px;
+	margin-top: -2px;
+	border-top: 4px solid #1C86EE;
+	border-radius: 999px;
+}
+.add::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 16px;
+	margin-top: -8px;
+	margin-left: -2px;
+	border-left: 4px solid #1C86EE;
+	border-radius: 999px;
+}
+
+
+.add {
+	width: 12px;
+	height: 12px;
+	transition: color .25s;
+	position: relative;
+	border: none;
+	cursor: pointer;
+	
+}
+
+.add-btn {
+	position: fixed;
+	height: 40px;
+	width: 40px;
+border-radius: 999px;
+
+	left: 30px;
+	bottom: 50rpx;
+	background-color: #ffffff;
+	box-shadow: 0 2px 8px 0 #dcdcdc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.btn-container{
+position: absolute;
+
+}

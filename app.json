@@ -6,6 +6,7 @@
     "pages/formLog/formLog",
     "pages/formItem/formItem",
     "pages/logInfo/logInfo",
+    "pages/to-do/to-do",
     "pages/notebook/notebook",
     "pages/note/note",
     "pages/writeNote/writeNote"
@@ -36,7 +37,7 @@
         "text": "社区"
       },
       {
-        "pagePath": "pages/note/note",
+        "pagePath": "pages/to-do/to-do",
         "selectedIconPath": "icons/bookresource-d.png",
         "iconPath": "icons/bookresource-l.png",
         "text": "待办"

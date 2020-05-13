@@ -1,0 +1,36 @@
+<view class="container">
+
+
+	<block  wx:if="{{ todos.length }}">
+		<view class="todos {{ haveChild ? 'haveChild' : '' }}">
+			<view wx:key="todo" class="item {{ item.completed ? 'completed' : ''}}" wx:for="{{ todos }}">
+				<icon class="checkbox" size="16" bindtap="toggleTodoHandle" type="{{ item.completed ? 'success' : 'circle' }}" data-index="{{ index }}"/>
+				<text class="name">{{ item.name }}</text>
+				<icon class="remove"  bindtap="clearOne" type="clear" size="16" data-index="{{ index }}"/>
+			</view>
+		</view>
+		<view class="footer">
+			<text class="btn" bindtap="toggleChangeAll">完成所有</text>
+			<text class="btn">共 {{ leftCount }}  项</text>
+			<text class="btn" bindtap="clearAll">清除所有</text>
+		</view>
+	</block>
+	<block wx:else>
+	    <view class="empty">
+      		<text class="title">Your list is empty</text>
+      		<text class="content">There is no remaining tasks</text>
+    	</view>
+	</block>
+
+ <view class="header">
+		<input class="new-todo" type="text" placeholder="Add new task" value="{{ input }}" bindchange="addTodosHandle"/>
+	</view>
+
+	<view class="btn-container">
+  <view class="add-btn" bindtap="">
+    <view class="add"></view>
+  </view>
+</view>
+
+
+</view>

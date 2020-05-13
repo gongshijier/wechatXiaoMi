@@ -13,6 +13,8 @@ page {
  
 }
 .content {
+  font-size: medium;
+  line-height: 1.8rem;
   width: 60%;
   left: 120rpx;
   top: 470rpx;
