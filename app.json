@@ -1,0 +1,53 @@
+{
+  "pages": [
+   
+    "pages/index/index",
+    "pages/logItemList/logItemList",
+    "pages/formLog/formLog",
+    "pages/formItem/formItem",
+    "pages/logInfo/logInfo",
+    "pages/to-do/to-do",
+    "pages/notebook/notebook",
+    "pages/note/note",
+    "pages/writeNote/writeNote"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "icons/home-d.png",
+        "iconPath": "icons/home-l.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logItemList/logItemList",
+        "selectedIconPath": "icons/message-d.png",
+        "iconPath": "icons/message-l.png",
+        "text": "社区"
+      },
+      {
+        "pagePath": "pages/to-do/to-do",
+        "selectedIconPath": "icons/bookresource-d.png",
+        "iconPath": "icons/bookresource-l.png",
+        "text": "待办"
+      },
+      {
+        "pagePath": "pages/notebook/notebook",
+        "selectedIconPath": "icons/edit-d.png",
+        "iconPath": "icons/edit-l.png",
+        "text": "便签"
+      }
+    ]
+  }
+}

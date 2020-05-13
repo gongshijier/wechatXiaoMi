@@ -1,0 +1,11 @@
+ 
+  
+
+<view class="home">
+ <image class="img" src="../../img/home.png" mode="widthFix" />
+  
+  <text class="content">{{hitokoto}}</text>
+
+  <text class="writer">{{from}}</text>
+
+</view>

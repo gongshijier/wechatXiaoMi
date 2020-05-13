@@ -1,0 +1,20 @@
+<!--miniprogram/pages/notebook/notebook.wxml-->
+<scroll-view scroll-y="true">
+  <block wx:for="{{notebookArray}}" wx:key="id">
+    <view class="notebook" bindlongpress="notebookDelete" bindtap="notebookModify" data-id="{{item._id}}">
+      <text class="text">\n{{item.name}}\n</text>
+      <text class="time">创建时间：{{item.time}}</text>
+    </view>
+  </block>
+</scroll-view>
+
+
+<view class="scroView" bindtap="notebookAdd">
+  <text class="circle"></text>
+</view>
+
+<modal title="新建便签本" hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCancel">
+  <view>
+    <input placeholder="请输入便签本名称：" bindinput="modalInput"/>
+  </view>
+</modal>
