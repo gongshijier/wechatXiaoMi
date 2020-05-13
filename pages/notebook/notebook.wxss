@@ -1,7 +1,7 @@
 /* miniprogram/pages/notebook/notebook.wxss */
 
 page {
-  background: #f6f6f6;
+  background: #FFFFFF;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -27,4 +27,18 @@ page {
   color: #ddd;
   text-align: left;
   margin-left: 20rpx;
+}
+
+.circle {
+  bottom: 88rpx;
+  right: 50rpx;
+  position: fixed;
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #ededed;
+  border-radius: 50%;
+  background-size: 72% 72%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg t='1587350579334' class='icon' viewBox='0 0 1024 1024' version='1.1' xmlns='http://www.w3.org/2000/svg' p-id='3978' width='32' height='32'%3E%3Cpath d='M488 488V192a16 16 0 0 1 16-16h16a16 16 0 0 1 16 16v296H832a16 16 0 0 1 16 16v16a16 16 0 0 1-16 16H536V832a16 16 0 0 1-16 16h-16a16 16 0 0 1-16-16V536H192a16 16 0 0 1-16-16v-16a16 16 0 0 1 16-16h296z' p-id='3979'%3E%3C/path%3E%3C/svg%3E");
 }

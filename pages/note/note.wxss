@@ -1,6 +1,6 @@
 /* miniprogram/pages/note/note.wxss */
 page {
-  background: #f6f6f6;
+  background: #ededed;
   flex-direction: column;
 } 
  .content {

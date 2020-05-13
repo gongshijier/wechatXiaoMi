@@ -1,10 +1,6 @@
 <!--miniprogram/pages/note/note.wxml-->
 <view class="content">
 
-  <view class="book-array">
-    <view>{{bookName}}</view>
-  </view>
-
   <scroll-view scroll-y="true">
     <block wx:for="{{noteArray}}" wx:key="id">
       <view class="note" bindlongpress="noteDelete" bindtap="noteModify" data-id="{{item._id}}">
