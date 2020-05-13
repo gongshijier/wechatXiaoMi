@@ -1,0 +1,14 @@
+<!--miniprogram/pages/writeNote/writeNote.wxml-->
+<view class="content">
+  <view>
+
+    <view>
+      <view bindtap="sure" class="save">保存</view>
+    </view>
+
+    <view>
+      <textarea name="content" value="{{content}}" bindinput="change" class="text" />
+    </view>
+
+  </view>
+</view>
