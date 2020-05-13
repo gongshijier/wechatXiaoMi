@@ -1,54 +1,22 @@
 // miniprogram/pages/writeNote/writeNote.js
 var util = require('../../utils/util.js');
-<<<<<<< HEAD
-=======
 const db = wx.cloud.database();
->>>>>>> devNoteZHB
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-<<<<<<< HEAD
-    id:'',
-=======
     flag: false,
     _id:'',
     time:'',
     bookid:'',
->>>>>>> devNoteZHB
     content: ''
   },
 
   sure() {
     var time = util.formatTime(new Date());
     this.setData({
-<<<<<<< HEAD
-      id: time
-    })
-    console.log(this.data.id);
-    var arr = wx.getStorageSync('notes');
-    var data = [], flag = true;
-    if (arr.length) {
-      arr.forEach(item => {
-        if (item.id == this.data.id) {
-          item.content = this.data.content;
-          flag = false;
-        }
-        data.unshift(item);
-      })
-    }
-    if (flag) {
-      data.unshift(this.data);
-    }
-    wx.setStorageSync('notes', data);
-
-    console.log(this.data.content);
-    wx.navigateBack({
-      delta: 1
-    });
-=======
       time: time
     })
     console.log('_id:',this.data._id);
@@ -87,7 +55,6 @@ Page({
    }, 1000),
    
     console.log(this.data.content); 
->>>>>>> devNoteZHB
   },
 
   change(e) {
@@ -101,29 +68,6 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (e) {
-<<<<<<< HEAD
-    var id = e.id;
-    console.log(e.detail);
-    if(id) {
-      var arr = wx.getStorageSync('notes');
-      if (arr.length) {
-        arr.forEach((item) => {
-          if (item.id == id) {
-            this.setData({
-              id: item.id,
-              content: item.content
-            })
-          }
-        })
-      }
-    }
-    else {
-      var time = util.formatTime(new Date());
-      this.setData({
-        id: time
-      })
-    }
-=======
     var _id = e.noteid;
     var bookid = e.bookid;
     console.log("writenote data:",this.data);
@@ -149,7 +93,6 @@ Page({
       this.data.flag = false;
     }
     console.log(this.data.value);
->>>>>>> devNoteZHB
   },
 
   /**

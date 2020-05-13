@@ -1,6 +1,4 @@
 /**app.wxss**/
-<<<<<<< HEAD
-=======
 .circle {
   bottom: 88rpx;
   right: 50rpx;
@@ -20,4 +18,3 @@
   align-items: center;
   flex-direction: column;
 }
->>>>>>> devNoteZHB

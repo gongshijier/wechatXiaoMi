@@ -1,59 +1,16 @@
 /* miniprogram/pages/note/note.wxss */
 page {
-<<<<<<< HEAD
-  height: 100%;
-  width: 100%;
-  
-  background: #ededed;
- 
-} 
-
-.content {
-=======
   background: #f6f6f6;
   flex-direction: column;
 } 
  .content {
->>>>>>> devNoteZHB
    display: inline;
    justify-content: center;
  }
 
-<<<<<<< HEAD
-.new-content {
-  bottom: 88rpx;
-  right: 50rpx;
-  position: fixed;
-  width: 100rpx;
-  height: 100rpx;
-  background-color: white;
-  border-radius: 50%;
-  background-size: 72% 72%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
- .new-button {
-   color: white;
-   background-color: #2c2c2c;
-   width: 100rpx;
-   min-height: 100rpx;
-   font-size: xx-large;
-   border-radius: 50rpx;
-   margin-right: 20rpx;
-   margin-bottom: 20rpx;
-   text-align: center;
-   line-height: 70rpx;
- }
-
- .note { 
-   text-align: left;
-   font-size: small;
-=======
  .note { 
    text-align: left;
    font-size: medium;
->>>>>>> devNoteZHB
    width: 95%;
    height: 200rpx;
    background-color: #FFFFFF;
@@ -62,19 +19,6 @@ page {
  }
  .book-array {
    height: 80rpx;
-<<<<<<< HEAD
-  
-   color: black; 
- }
-
- .book-inside {
-   margin-left: 20rpx;
-   margin-top: 20rpx;
-   height: 60rpx;
- }
-
- .circle {
-=======
    background-color: gray;
    color: white; 
  }
@@ -84,7 +28,6 @@ page {
  }
 
   .circle {
->>>>>>> devNoteZHB
   bottom: 88rpx;
   right: 50rpx;
   position: fixed;
@@ -102,8 +45,6 @@ page {
   display: flex;
   align-items: center;
   flex-direction: column;
-<<<<<<< HEAD
-=======
 }
 
 .time {
@@ -114,5 +55,4 @@ page {
 
 .text {
   margin: 10rpx;
->>>>>>> devNoteZHB
 }

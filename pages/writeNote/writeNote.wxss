@@ -1,8 +1,4 @@
 /* miniprogram/pages/writeNote/writeNote.wxss */
-<<<<<<< HEAD
- 
-.content {
-=======
 page {
   background: #f6f6f6;
   display: flex;
@@ -10,18 +6,13 @@ page {
   justify-content: flex-start;
 }
  .content {
->>>>>>> devNoteZHB
    display: inline;
    justify-content: center;
  }
 
  .text {
    text-align: left;
-<<<<<<< HEAD
-   font-size: small;
-=======
    font-size: medium;
->>>>>>> devNoteZHB
    width: 95%;
    height: 1070rpx;
    background-color: #FFFFFF;
@@ -32,16 +23,10 @@ page {
  .save {
    background-color: grey;
    color: white;
-<<<<<<< HEAD
-   text-align: right;
-   font-size: small;
-   border-radius: 0rpx;
-=======
    text-align: center;
    font-size: medium;
    border-radius: 0rpx;
    width: 100%;
    height: 80rpx
->>>>>>> devNoteZHB
  }
 
