@@ -6,6 +6,10 @@
     "pages/formLog/formLog",
     "pages/formItem/formItem",
     "pages/logInfo/logInfo",
+<<<<<<< HEAD
+=======
+    "pages/notebook/notebook",
+>>>>>>> devNoteZHB
     "pages/note/note",
     "pages/writeNote/writeNote"
   ],
@@ -35,13 +39,21 @@
         "text": "社区"
       },
       {
+<<<<<<< HEAD
         "pagePath": "pages/writeNote/writeNote",
+=======
+        "pagePath": "pages/index/index",
+>>>>>>> devNoteZHB
         "selectedIconPath": "icons/bookresource-d.png",
         "iconPath": "icons/bookresource-l.png",
         "text": "待办"
       },
       {
+<<<<<<< HEAD
         "pagePath": "pages/note/note",
+=======
+        "pagePath": "pages/notebook/notebook",
+>>>>>>> devNoteZHB
         "selectedIconPath": "icons/edit-d.png",
         "iconPath": "icons/edit-l.png",
         "text": "便签"

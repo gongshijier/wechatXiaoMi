@@ -1,5 +1,6 @@
 /* miniprogram/pages/note/note.wxss */
 page {
+<<<<<<< HEAD
   height: 100%;
   width: 100%;
   
@@ -8,10 +9,17 @@ page {
 } 
 
 .content {
+=======
+  background: #f6f6f6;
+  flex-direction: column;
+} 
+ .content {
+>>>>>>> devNoteZHB
    display: inline;
    justify-content: center;
  }
 
+<<<<<<< HEAD
 .new-content {
   bottom: 88rpx;
   right: 50rpx;
@@ -41,6 +49,11 @@ page {
  .note { 
    text-align: left;
    font-size: small;
+=======
+ .note { 
+   text-align: left;
+   font-size: medium;
+>>>>>>> devNoteZHB
    width: 95%;
    height: 200rpx;
    background-color: #FFFFFF;
@@ -49,6 +62,7 @@ page {
  }
  .book-array {
    height: 80rpx;
+<<<<<<< HEAD
   
    color: black; 
  }
@@ -60,6 +74,17 @@ page {
  }
 
  .circle {
+=======
+   background-color: gray;
+   color: white; 
+ }
+
+ .book-inside {
+   font-size: smaller
+ }
+
+  .circle {
+>>>>>>> devNoteZHB
   bottom: 88rpx;
   right: 50rpx;
   position: fixed;
@@ -77,4 +102,17 @@ page {
   display: flex;
   align-items: center;
   flex-direction: column;
+<<<<<<< HEAD
+=======
+}
+
+.time {
+  margin: 15rpx;
+  color: #999999;
+  font-size: smaller
+}
+
+.text {
+  margin: 10rpx;
+>>>>>>> devNoteZHB
 }

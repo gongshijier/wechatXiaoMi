@@ -3,7 +3,11 @@
   <view>
 
     <view>
+<<<<<<< HEAD
       <button bindtap="sure" class="save">保存</button>
+=======
+      <view bindtap="sure" class="save">保存</view>
+>>>>>>> devNoteZHB
     </view>
 
     <view>
