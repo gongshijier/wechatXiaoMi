@@ -1,20 +1,5 @@
 <!--miniprogram/pages/note/note.wxml-->
 <view class="content">
-<<<<<<< HEAD
-  <view class="book-array">
-    <picker class="book-inside" mode="selector" bindchange="notebookChange" value="{{bookIndex}}" range="{{bookArray}}">
-      <view>
-        {{bookArray[bookIndex]}}
-      </view>
-    </picker>
-  </view>
-
-  <scroll-view scroll-y="true">
-    <block wx:for="{{noteArray}}" wx:key="this.id">
-      <view class="note" bindlongpress="noteDelete" bindtap="noteModify">
-      <!--text>{{item.time}}</text-->
-        <text>{{item.content}}</text>
-=======
 
   <view class="book-array">
     <view>{{bookName}}</view>
@@ -25,20 +10,12 @@
       <view class="note" bindlongpress="noteDelete" bindtap="noteModify" data-id="{{item._id}}">
         <text class="time">{{item.time}}\n</text>
         <text class="text">{{item.content}}</text>
->>>>>>> devNoteZHB
       </view>
     </block>
   </scroll-view>
 
 
-<<<<<<< HEAD
- 
-   <navigator url="/pages/writeNote/writeNote" class="scroView">
-            <text class="circle"></text>
-        </navigator>
-=======
   <view class="scroView" bindtap="noteAdd">
     <text class="circle"></text>
   </view>
->>>>>>> devNoteZHB
 </view>
